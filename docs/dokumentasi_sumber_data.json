@@ -1,0 +1,191 @@
+{
+  "proyek": "UTS DAM - Industri Kreatif Indonesia",
+  "dibuat_utc": "2026-11-17T07:58:32+00:00",
+  "catatan_waktu": "Data BPS historis 2011-2016; data OSM dan Wikipedia adalah snapshot saat akuisisi.",
+  "sumber_data": [
+    {
+      "id": "S1",
+      "nama": "BPS - Tenaga Kerja Ekonomi Kreatif 2011-2016 (Lampiran 1.2)",
+      "penyedia": "Badan Pusat Statistik (bersama Badan Ekonomi Kreatif); data dasar Sakernas",
+      "url_atau_asal": "Berkas PDF unggahan pengguna (No. Katalog 2301034, ISBN 978-602-438-197-4)",
+      "cara_akuisisi": "Unggah manual + ekstraksi tabel PDF (pdfplumber) pada halaman PDF ke-108; watermark dibuang berdasarkan font; validasi jumlah provinsi vs baris Total",
+      "waktu_akuisisi_utc": "2026-11-17T06:43:39+00:00",
+      "cakupan_waktu": "2011-2016 (data historis tahunan)",
+      "cakupan_geografis": "34 provinsi Indonesia",
+      "jumlah_record_mentah": 204,
+      "jumlah_record_bersih": 204,
+      "file_mentah": [
+        "data/raw/BPS0000-tenaga_kerja_ekonomi_kreatif_2011_2016.pdf",
+        "data/raw/bps_ekraf_wide_mentah.csv",
+        "data/raw/bps_ekraf_long_hasil_ekstraksi.csv"
+      ],
+      "sha256_pdf": "8856eff8f88eb3c4bbd213b0641e29db2fc2745bb1e1fe023f50cf2735279d59",
+      "lisensi_ketentuan": "Hak cipta BPS; penggandaan untuk tujuan komersial memerlukan izin tertulis. Pemakaian akademik dengan sitasi. Verifikasi ketentuan terbaru di bps.go.id.",
+      "data_pribadi": "Tidak ada (agregat per provinsi)",
+      "keterbatasan": "Hasil survei sampel (Sakernas). Kalimantan Utara 2011-2014 tercatat '-' (kosong)."
+    },
+    {
+      "id": "S2",
+      "nama": "OpenStreetMap via Overpass API - fasilitas kreatif",
+      "penyedia": "OpenStreetMap contributors",
+      "url_atau_asal": "https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.private.coffee/api/interpreter",
+      "cara_akuisisi": "REST API (POST Overpass QL); kategori: museum, galeri_seni, bioskop, teater, pusat_seni, tempat_musik, kerajinan; limit 30/kategori; retry + backoff; timeout (15, 180); provinsi dari tag OSM",
+      "waktu_akuisisi_utc": "2026-11-17 07:25:23",
+      "cakupan_waktu": "Snapshot saat akuisisi (BUKAN data historis 2011-2016)",
+      "cakupan_geografis": "Indonesia (sampel)",
+      "jumlah_record_mentah": 121,
+      "jumlah_record_bersih": 121,
+      "file_mentah": [
+        "data/raw/overpass_museum.json",
+        "data/raw/overpass_galeri_seni.json",
+        "data/raw/overpass_bioskop.json",
+        "data/raw/overpass_teater.json",
+        "data/raw/overpass_pusat_seni.json",
+        "data/raw/overpass_tempat_musik.json",
+        "data/raw/overpass_kerajinan.json",
+        "data/raw/osm_fasilitas_mentah_tabel.csv"
+      ],
+      "lisensi_ketentuan": "ODbL 1.0 - wajib atribusi '(c) OpenStreetMap contributors'; turunan basis data dibagikan dengan lisensi sama",
+      "data_pribadi": "Nama tempat publik; tidak mengambil kontak personal",
+      "keterbatasan": "Crowdsourced, tidak merata, sampel berbatas record; provinsi sering tidak tersedia pada tag."
+    },
+    {
+      "id": "S3",
+      "nama": "Wikipedia ID - Daftar museum di Indonesia",
+      "penyedia": "Wikipedia contributors (Wikimedia Foundation)",
+      "url_atau_asal": "https://id.wikipedia.org/wiki/Daftar_museum_di_Indonesia",
+      "cara_akuisisi": "Web scraping 1 halaman (requests + BeautifulSoup/pandas.read_html); robots.txt dicek (boleh: True); User-Agent; timeout (10, 30); jeda 2 dtk",
+      "waktu_akuisisi_utc": "2026-11-17T07:50:31+00:00",
+      "cakupan_waktu": "Snapshot saat akuisisi (BUKAN data historis 2011-2016)",
+      "cakupan_geografis": "Indonesia",
+      "jumlah_record_mentah": 571,
+      "jumlah_record_bersih": 571,
+      "file_mentah": [
+        "data/raw/wikipedia_museum_halaman.html",
+        "data/raw/wikipedia_robots.txt",
+        "data/raw/wikipedia_museum_mentah_tabel.csv"
+      ],
+      "lisensi_ketentuan": "CC BY-SA 4.0 - wajib atribusi dan berbagi-serupa",
+      "data_pribadi": "Tidak ada (nama museum dan lokasi)",
+      "keterbatasan": "Struktur halaman dapat berubah; daftar tidak lengkap; kategori museum tidak selalu tersedia."
+    }
+  ],
+  "kamus_data": [
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "provinsi",
+      "deskripsi": "Nama provinsi standar (34 provinsi BPS)"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "tahun",
+      "deskripsi": "Tahun data BPS (2011-2016)"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "jumlah_tenaga_kerja",
+      "deskripsi": "Jumlah penduduk bekerja di sektor ekonomi kreatif (jiwa); kosong = tidak tersedia"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "pulau",
+      "deskripsi": "Kelompok kepulauan (pengelompokan analisis proyek)"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "osm_<kategori>",
+      "deskripsi": "Jumlah fasilitas pada SAMPEL OSM per kategori (snapshot, bukan historis)"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "osm_total_fasilitas",
+      "deskripsi": "Total fasilitas sampel OSM yang punya provinsi (snapshot)"
+    },
+    {
+      "tabel": "data_gabungan_long",
+      "kolom": "wiki_jumlah_museum",
+      "deskripsi": "Jumlah museum pada daftar Wikipedia per provinsi (snapshot)"
+    },
+    {
+      "tabel": "data_gabungan_provinsi",
+      "kolom": "tk_2011 ... tk_2016",
+      "deskripsi": "Tenaga kerja ekraf per tahun"
+    },
+    {
+      "tabel": "data_gabungan_provinsi",
+      "kolom": "pertumbuhan_2011_2016_persen",
+      "deskripsi": "(tk_2016 / tk_2011 - 1) x 100; kosong untuk Kalimantan Utara"
+    },
+    {
+      "tabel": "data_gabungan_provinsi",
+      "kolom": "share_2016_persen",
+      "deskripsi": "Share tenaga kerja ekraf thd penduduk bekerja provinsi 2016 menurut publikasi BPS (%)"
+    },
+    {
+      "tabel": "osm_fasilitas_clean",
+      "kolom": "provinsi_sumber",
+      "deskripsi": "Asal info provinsi: tag OSM / reverse geocoding Nominatim / tidak tersedia"
+    },
+    {
+      "tabel": "osm_fasilitas_clean",
+      "kolom": "provinsi_bps",
+      "deskripsi": "Provinsi setelah harmonisasi ke 34 provinsi BPS"
+    },
+    {
+      "tabel": "wikipedia_museum_clean",
+      "kolom": "metode_parse",
+      "deskripsi": "Pola parsing yang menghasilkan baris (tabel wikitable / daftar berpoin)"
+    }
+  ],
+  "log_akuisisi": [
+    {
+      "waktu_utc": "2026-11-17T06:43:39+00:00",
+      "sumber": "BPS PDF",
+      "aksi": "unggah_manual",
+      "status": "OK",
+      "keterangan": "sha256=8856eff8f88eb3c4bbd213b0641e29db2fc2745bb1e1fe023f50cf2735279d59"
+    },
+    {
+      "waktu_utc": "2026-11-17T06:47:49+00:00",
+      "sumber": "Overpass API",
+      "aksi": "query museum",
+      "status": "502",
+      "keterangan": "https://overpass-api.de/api/interpreter"
+    },
+    {
+      "waktu_utc": "2026-11-17T06:50:29+00:00",
+      "sumber": "Overpass API",
+      "aksi": "query museum",
+      "status": "timeout",
+      "keterangan": "https://overpass.kumi.systems/api/interpreter"
+    },
+    {
+      "waktu_utc": "2026-11-17T06:53:03+00:00",
+      "sumber": "Overpass API",
+      "aksi": "query museum",
+      "status": "timeout",
+      "keterangan": "https://overpass.private.coffee/api/interpreter"
+    },
+    {
+      "waktu_utc": "2026-11-17T06:54:34+00:00",
+      "sumber": "Overpass API",
+      "aksi": "query museum",
+      "status": "200",
+      "keterangan": "https://overpass-api.de/api/interpreter"
+    },
+    {
+      "waktu_utc": "2026-11-17T07:50:28+00:00",
+      "sumber": "Wikipedia",
+      "aksi": "GET robots.txt",
+      "status": "200",
+      "keterangan": "https://id.wikipedia.org/robots.txt"
+    },
+    {
+      "waktu_utc": "2026-11-17T07:50:31+00:00",
+      "sumber": "Wikipedia",
+      "aksi": "GET halaman",
+      "status": "200",
+      "keterangan": "https://id.wikipedia.org/wiki/Daftar_museum_di_Indonesia"
+    }
+  ]
+}
