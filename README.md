@@ -442,7 +442,7 @@ Luaran yang diharapkan dari eksekusi notebook:
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
+
 **WEST JAVA TOURISM INTELLIGENCE**\
 *Data • Discovery • Documentation*
 
