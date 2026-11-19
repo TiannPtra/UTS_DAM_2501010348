@@ -6,7 +6,6 @@ Prodi : Informatika - MDA
 
 Kelas: E
 
-::: {align="center"}
 # 🧭 WEST JAVA TOURISM INTELLIGENCE 
 
 ### Integrasi Data Potensi Wisata, Historical Weather, dan Informasi Paket Wisata
