@@ -1,0 +1,8 @@
+﻿kolom,tipe_data,deskripsi,satuan,contoh,jumlah_missing,jumlah_unik
+tahun,int64,Tahun pencatatan objek wisata,tahun (kalender),2005,0,1
+kabupaten_kota,string,Kabupaten/kota lokasi objek,-,Kabupaten Bogor,0,23
+lokasi,string,Keterangan lokasi (desa/kecamatan); '-' di sumber = tidak ada info,-,"Kec. Sukajaya, Desa Kiarapandak",10,154
+jenis_potensi,string,Jenis potensi wisata: Alam / Budaya / Buatan,kategori,Budaya,0,3
+nama_objek_wisata,string,Nama objek wisata,-,Kampung Adat Tamiang,0,194
+halaman_sumber,int64,Nomor halaman pada publikasi sumber,nomor halaman,68,0,11
+tabel_sumber,int64,Nomor tabel pada publikasi sumber,nomor tabel,15,0,1

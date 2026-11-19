@@ -1,0 +1,24 @@
+﻿kabupaten_kota,query,nama_hasil,admin1,admin2,latitude,longitude,feature_code,level_verifikasi,status,sumber
+Kabupaten Bandung,Soreang,Soreang,West Java,Kabupaten Bandung,-7.03306,107.51833,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Bogor,Cibinong,Cibinong,West Java,Bogor Regency,-6.48167,106.85417,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Ciamis,Ciamis,Ciamis,West Java,Ciamis Regency,-7.3257,108.3534,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Cianjur,Cianjur,Cianjur,West Java,Kabupaten Cianjur,-6.82222,107.13944,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Cirebon,Sumber,Sumber,West Java,Cirebon Regency,-6.76028,108.48306,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Garut,Garut,Garut,West Java,Garut Regency,-7.245,107.921,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Indramayu,Indramayu,Indramayu,West Java,Kabupaten Indramayu,-6.32639,108.32,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Karawang,Karawang,Karawang,West Java,Kabupaten Karawang,-6.30525,107.3197,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Kuningan,Kuningan,Kuningan,West Java,Kabupaten Kuningan,-6.97583,108.48306,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Majalengka,Majalengka,Majalengka,West Java,Majalengka Regency,-6.83611,108.22778,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Purwakarta,Purwakarta,Purwakarta,West Java,Kabupaten Purwakarta,-6.55694,107.44333,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Subang,Subang,Subang,West Java,Kabupaten Subang,-6.57,107.75667,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Sukabumi,Pelabuhanratu,Pelabuhanratu,West Java,Kabupaten Sukabumi,-6.9875,106.55139,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Sumedang,Sumedang,Sumedang,West Java,Kabupaten Sumedang,-6.85861,107.91639,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kabupaten Tasikmalaya,Singaparna,Singaparna,West Java,Kabupaten Tasikmalaya,-7.3515,108.111,PPLA2,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Bandung,Bandung,Bandung,West Java,Kota Bandung,-6.92222,107.60694,PPLA,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Banjar,Banjar,Banjar,West Java,Banjar City,-7.3688,108.5329,PPLA3,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Bogor,Bogor,Bogor,West Java,Kota Bogor,-6.59444,106.78917,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Cimahi,Cimahi,Cimahi,West Java,Kota Cimahi,-6.87222,107.5425,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Cirebon,Cirebon,Cirebon,West Java,Kota Cirebon,-6.7063,108.557,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Depok,Depok,Depok,West Java,Kota Depok,-6.4,106.81861,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Sukabumi,Sukabumi,Sukabumi,West Java,Kota Sukabumi,-6.91806,106.92667,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API
+Kota Tasikmalaya,Tasikmalaya,Tasikmalaya,West Java,Kota Tasikmalaya,-7.3274,108.2207,PPL,A_admin2_cocok,ok,Open-Meteo Geocoding API

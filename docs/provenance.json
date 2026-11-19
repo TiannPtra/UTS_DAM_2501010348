@@ -1,0 +1,355 @@
+{
+  "project": "West Java Tourism Intelligence",
+  "diperbarui_utc": "2026-11-19T13:25:57+00:00",
+  "user_agent": "UTS-DAM-INSTIKI/1.0 (tugas kuliah Data Acquisition; kontak: mahasiswa@instiki.ac.id)",
+  "sources": [
+    {
+      "source_id": "S1_csv_bps",
+      "nama": "CSV Potensi Wisata Jawa Barat (BPS, publikasi 2005)",
+      "metode": "Berkas dataset terbuka",
+      "url": "https://jabar.bps.go.id/id/publication/2006/05/09/225528b03bf64b54704968de/kebudayaan-dan-pariwisata-jawa-barat-dalam-angka-2005.html",
+      "tanggal_akses_utc": "2026-11-19T13:23:33+00:00",
+      "lisensi": "BELUM DIVERIFIKASI - lihat docs/bukti_lisensi.csv (BAB 3)",
+      "status": "terdaftar",
+      "catatan": "Tanggal unduh asli: tidak dicatat (memakai tanggal registrasi)",
+      "files": [
+        {
+          "path": "data/raw/dataset_utama/Pariwisaata Jawa Barat.csv",
+          "md5": "b51f567fbc8b1fe01d0923421071d240",
+          "size_bytes": 15110,
+          "dicatat_utc": "2026-11-19T13:23:33+00:00"
+        }
+      ]
+    },
+    {
+      "source_id": "S2_openmeteo_api",
+      "nama": "Open-Meteo Historical Weather API",
+      "metode": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "tanggal_akses_utc": "2026-11-19T13:23:33+00:00",
+      "lisensi": "CC BY 4.0 (sesuai spesifikasi project; bukti halaman lisensi di docs/bukti_lisensi.csv)",
+      "status": "terdaftar",
+      "catatan": "Atribusi: Weather data by Open-Meteo.com",
+      "files": [
+        {
+          "path": "data/raw/openmeteo/openmeteo_lisensi_1.html",
+          "md5": "24918127445438ddfa8ec3f8ad6ec73b",
+          "size_bytes": 100,
+          "dicatat_utc": "2026-11-19T13:23:38+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_lisensi_2.html",
+          "md5": "b5bdd4e3578da004ac805c909685e5a1",
+          "size_bytes": 38671,
+          "dicatat_utc": "2026-11-19T13:23:41+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_bandung__soreang.json",
+          "md5": "0506a5828f3ceb303bca36d3c32dd9ed",
+          "size_bytes": 2895,
+          "dicatat_utc": "2026-11-19T13:23:47+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_bogor__cibinong.json",
+          "md5": "f9b12cd2cbd1f0ad99b59a9863dae48d",
+          "size_bytes": 2992,
+          "dicatat_utc": "2026-11-19T13:23:50+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_ciamis__ciamis.json",
+          "md5": "a6898ca54193cf1e9b19184284265a0d",
+          "size_bytes": 1219,
+          "dicatat_utc": "2026-11-19T13:23:52+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_cianjur__cianjur.json",
+          "md5": "c492b0fd4b5c3955c2e792afd61fed7c",
+          "size_bytes": 2994,
+          "dicatat_utc": "2026-11-19T13:23:55+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_cirebon__sumber.json",
+          "md5": "5b0e9643487367f332b9a3c56113e913",
+          "size_bytes": 2861,
+          "dicatat_utc": "2026-11-19T13:23:58+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_garut__garut.json",
+          "md5": "16bbd7ebfa3f4b28935b052e2b9610a0",
+          "size_bytes": 2968,
+          "dicatat_utc": "2026-11-19T13:24:00+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_indramayu__indramayu.json",
+          "md5": "1a44db752ab3dc2b55c25d13cdffa68c",
+          "size_bytes": 357,
+          "dicatat_utc": "2026-11-19T13:24:03+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_karawang__karawang.json",
+          "md5": "5bb9f3e4c1e5094d5bc8973784ea5cd1",
+          "size_bytes": 3023,
+          "dicatat_utc": "2026-11-19T13:24:06+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_kuningan__kuningan.json",
+          "md5": "4dc57d84f187468dad142438bb406b26",
+          "size_bytes": 3020,
+          "dicatat_utc": "2026-11-19T13:24:08+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_majalengka__majalengka.json",
+          "md5": "4ee94d20871c3b27fbc1b7a1dd77b866",
+          "size_bytes": 992,
+          "dicatat_utc": "2026-11-19T13:24:11+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_purwakarta__purwakarta.json",
+          "md5": "6f5e3a6700f6472477e2e64618e9e788",
+          "size_bytes": 363,
+          "dicatat_utc": "2026-11-19T13:24:14+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_subang__subang.json",
+          "md5": "f4e632ce416db21c40bc507f9065320d",
+          "size_bytes": 3065,
+          "dicatat_utc": "2026-11-19T13:24:16+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_sukabumi__pelabuhanratu.json",
+          "md5": "2e64dddb8e2071830294ebbfe37519d1",
+          "size_bytes": 363,
+          "dicatat_utc": "2026-11-19T13:24:19+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_sumedang__sumedang.json",
+          "md5": "1d1bb56e16a8444554e8fb3d2da0b0c7",
+          "size_bytes": 2922,
+          "dicatat_utc": "2026-11-19T13:24:22+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kabupaten_tasikmalaya__singaparna.json",
+          "md5": "2395edfdcaded6730ce70ed6bb7d107f",
+          "size_bytes": 1250,
+          "dicatat_utc": "2026-11-19T13:24:24+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_bandung__bandung.json",
+          "md5": "a71cc5f15a6dcc6dd3cd6876f093dd0f",
+          "size_bytes": 2860,
+          "dicatat_utc": "2026-11-19T13:24:27+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_banjar__banjar.json",
+          "md5": "96b4cbd662234176bcda0033eb3339cb",
+          "size_bytes": 3066,
+          "dicatat_utc": "2026-11-19T13:24:30+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_bogor__bogor.json",
+          "md5": "61cfe6ae8320e03fea332634338e4751",
+          "size_bytes": 2928,
+          "dicatat_utc": "2026-11-19T13:24:32+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_cimahi__cimahi.json",
+          "md5": "2ef241f43370e61b2a393bcc6e01fd3b",
+          "size_bytes": 2953,
+          "dicatat_utc": "2026-11-19T13:24:35+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_cirebon__cirebon.json",
+          "md5": "27edc7d8a15f15e04cfd8e6604bb32c1",
+          "size_bytes": 1523,
+          "dicatat_utc": "2026-11-19T13:24:38+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_depok__depok.json",
+          "md5": "e6088f3d0c73286c31513252228f32e2",
+          "size_bytes": 3032,
+          "dicatat_utc": "2026-11-19T13:24:41+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_sukabumi__sukabumi.json",
+          "md5": "f00d9df3727483c9545f092599341d61",
+          "size_bytes": 3041,
+          "dicatat_utc": "2026-11-19T13:24:43+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/geocoding_kota_tasikmalaya__tasikmalaya.json",
+          "md5": "a206fae450c842ba491ad2c5bdd62533",
+          "size_bytes": 1266,
+          "dicatat_utc": "2026-11-19T13:24:46+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_bandung_2005.json",
+          "md5": "6c8d922e8c68203fd75610c2b2cf0c23",
+          "size_bytes": 14553,
+          "dicatat_utc": "2026-11-19T13:24:49+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_bogor_2005.json",
+          "md5": "de1c903e3910294b0f6c19eeb675c5d0",
+          "size_bytes": 14525,
+          "dicatat_utc": "2026-11-19T13:24:52+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_ciamis_2005.json",
+          "md5": "e277bdb7746e89c9ebddd3b24aa46fef",
+          "size_bytes": 14556,
+          "dicatat_utc": "2026-11-19T13:24:55+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_cianjur_2005.json",
+          "md5": "e3a0285d483f27c0bf529c47fa5a6579",
+          "size_bytes": 14468,
+          "dicatat_utc": "2026-11-19T13:24:57+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_cirebon_2005.json",
+          "md5": "39fd4b3151ff37305693a5f530220b47",
+          "size_bytes": 14674,
+          "dicatat_utc": "2026-11-19T13:25:00+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_garut_2005.json",
+          "md5": "fd21798c1a7aa0899591ecc0bf0aa167",
+          "size_bytes": 14488,
+          "dicatat_utc": "2026-11-19T13:25:03+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_indramayu_2005.json",
+          "md5": "a08b4741b8dc74666ae1b4136c7e3d2a",
+          "size_bytes": 14635,
+          "dicatat_utc": "2026-11-19T13:25:05+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_karawang_2005.json",
+          "md5": "2fb42163cd881ede24e3b717acc66f99",
+          "size_bytes": 14703,
+          "dicatat_utc": "2026-11-19T13:25:08+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_kuningan_2005.json",
+          "md5": "0e38cd71936eee9b0645edbd99d24f41",
+          "size_bytes": 14525,
+          "dicatat_utc": "2026-11-19T13:25:11+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_majalengka_2005.json",
+          "md5": "c678b32e01d95a73720418fff3ef62f9",
+          "size_bytes": 14528,
+          "dicatat_utc": "2026-11-19T13:25:13+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_purwakarta_2005.json",
+          "md5": "0b09ea46b27544adcc328f6434bd081f",
+          "size_bytes": 14554,
+          "dicatat_utc": "2026-11-19T13:25:16+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_subang_2005.json",
+          "md5": "d834a941c98dd62ca8a5f9d7369a7687",
+          "size_bytes": 14592,
+          "dicatat_utc": "2026-11-19T13:25:19+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_sukabumi_2005.json",
+          "md5": "61e5ad53b0e6c21a03c76f4f61ca335b",
+          "size_bytes": 14679,
+          "dicatat_utc": "2026-11-19T13:25:21+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_sumedang_2005.json",
+          "md5": "ad819f19da55296dac1b2356bbc63913",
+          "size_bytes": 14485,
+          "dicatat_utc": "2026-11-19T13:25:24+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kabupaten_tasikmalaya_2005.json",
+          "md5": "5ad2ea4984ad54464075e1d688bf9a78",
+          "size_bytes": 14487,
+          "dicatat_utc": "2026-11-19T13:25:27+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_bandung_2005.json",
+          "md5": "9dc6775b984659e0900be5f1b6cd371a",
+          "size_bytes": 14554,
+          "dicatat_utc": "2026-11-19T13:25:29+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_banjar_2005.json",
+          "md5": "afa5f32213046495fb7766ff6203f6ae",
+          "size_bytes": 14582,
+          "dicatat_utc": "2026-11-19T13:25:32+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_bogor_2005.json",
+          "md5": "86c29055bab167f61916b1f34d30fa89",
+          "size_bytes": 14525,
+          "dicatat_utc": "2026-11-19T13:25:35+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_cimahi_2005.json",
+          "md5": "117c6be12cf0dc82e31e12169f5104f6",
+          "size_bytes": 14540,
+          "dicatat_utc": "2026-11-19T13:25:37+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_cirebon_2005.json",
+          "md5": "bcaeb5cf154af4f5c6c24ebbea60acda",
+          "size_bytes": 14672,
+          "dicatat_utc": "2026-11-19T13:25:40+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_depok_2005.json",
+          "md5": "5290f36da2107ec64b7593aa8d230568",
+          "size_bytes": 14525,
+          "dicatat_utc": "2026-11-19T13:25:43+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_sukabumi_2005.json",
+          "md5": "08d058847ad9bfce0d0a594b1fb87d39",
+          "size_bytes": 14516,
+          "dicatat_utc": "2026-11-19T13:25:46+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/openmeteo_archive_kota_tasikmalaya_2005.json",
+          "md5": "f87edfa7d1d9925bd9d18d34f27962d6",
+          "size_bytes": 14554,
+          "dicatat_utc": "2026-11-19T13:25:49+00:00"
+        },
+        {
+          "path": "data/raw/openmeteo/robots_open-meteo_com.txt",
+          "md5": "f77c87f977e0fcce05a6df46c885a129",
+          "size_bytes": 22,
+          "dicatat_utc": "2026-11-19T13:25:57+00:00"
+        }
+      ]
+    },
+    {
+      "source_id": "S3_jadesta",
+      "nama": "JADESTA - Paket Wisata (Kemenparekraf)",
+      "metode": "Web scraping",
+      "url": "https://jadesta.kemenpar.go.id/paket/jenis/105",
+      "tanggal_akses_utc": "2026-11-19T13:25:49+00:00",
+      "lisensi": "BELUM DIVERIFIKASI - baca Terms of Service (lihat docs/bukti_lisensi.csv & sel 5.2)",
+      "status": "terdaftar",
+      "catatan": "",
+      "files": [
+        {
+          "path": "data/raw/jadesta/robots_jadesta_kemenpar_go_id.txt",
+          "md5": "f70c5214c0533119ee64f247f31a746a",
+          "size_bytes": 19866,
+          "dicatat_utc": "2026-11-19T13:25:53+00:00"
+        },
+        {
+          "path": "data/raw/jadesta/jadesta_home.html",
+          "md5": "5b5a4afb6707d51c6d02cbad3b498e17",
+          "size_bytes": 71726,
+          "dicatat_utc": "2026-11-19T13:25:56+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿no,aspek_etika,status,bukti,catatan
+1,"Sumber & provenance (URL, tanggal akses, lisensi, MD5)",Selesai,docs/provenance.json,Setiap sumber punya berkas raw + MD5; diverifikasi ulang di BAB 7
+2,Lisensi/ketentuan dataset BPS diperiksa,Perlu verifikasi manual,docs/bukti_lisensi.csv; raw/dataset_utama/bps_halaman_publikasi_1.html,"Jika 'Perlu verifikasi manual', baca halaman BPS lalu isi CATATAN_MANUAL_BPS"
+3,Ketentuan Open-Meteo (lisensi CC BY 4.0 & atribusi),Perlu verifikasi manual,docs/bukti_lisensi.csv; raw/openmeteo/openmeteo_lisensi_*.html,Atribusi: Weather data by Open-Meteo.com
+4,Ketentuan JADESTA (robots.txt + Terms of Service),Perlu verifikasi manual (ToS belum dikonfirmasi),docs/bukti_robots.csv; raw/jadesta/robots_*.txt; docs/bukti_lisensi.csv,Scraping hanya jika robots mengizinkan DAN ToS sudah dikonfirmasi
+5,Identifikasi PII & quasi-identifier,Selesai,docs/pii_scan.csv,Tidak ada pola email/telepon/NIK; lokasi = quasi-identifier lemah
+6,"Data minimization (tanpa kontak pribadi, kolom seperlunya)",Selesai,KOLOM_SCRAPING pada BAB 5; docs/scraping_quality_report.csv,Telepon/email kontak desa tidak diambil
+7,Potensi bias & keterbatasan data didokumentasikan,Selesai,README.md (bagian Keterbatasan),"Periode berbeda, koordinat tingkat kabupaten/kota, reanalisis grid"
+8,Tujuan penggunaan data dinyatakan,Selesai,README.md (bagian Tujuan),"Akademik, non-komersial"
+9,"Keamanan, penyimpanan, dan penghapusan data",Selesai,README.md; raw read-only; tanpa API key,Retensi: dihapus setelah semester kecuali diminta dosen

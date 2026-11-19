@@ -1,0 +1,199 @@
+﻿id_objek,tahun,kabupaten_kota,lokasi,jenis_potensi,nama_objek_wisata,halaman_sumber,tabel_sumber,lokasi_tidak_tersedia,flag_kandidat_duplikat
+OBJ-0001,2005,Kabupaten Bogor,,Budaya,Kampung Adat Tamiang,68,15,True,False
+OBJ-0002,2005,Kabupaten Bogor,"Kec. Sukajaya, Desa Kiarapandak",Budaya,Kampung Adat Urug,68,15,False,False
+OBJ-0003,2005,Kabupaten Bogor,"Desa Tugu Selatan, Kec. Cisarua",Alam,Telaga Warna,68,15,False,False
+OBJ-0004,2005,Kabupaten Bogor,"Desa Tugu Selatan, Kec. Cisarua",Alam,Panorama Alam Riung Gunung,68,15,False,False
+OBJ-0005,2005,Kabupaten Bogor,"Desa Jogjogan, Kec. Megamendung",Alam,Curug Cilember,68,15,False,False
+OBJ-0006,2005,Kabupaten Bogor,"Desa Sukajadi, Kec. Ciomas",Alam,Curug Nangka,68,15,False,False
+OBJ-0007,2005,Kabupaten Bogor,Desa Gunung Melang,Alam,Curug Luhur,68,15,False,False
+OBJ-0008,2005,Kabupaten Bogor,Kec. Pamijahan,Alam,Air Panas DSE,68,15,False,False
+OBJ-0009,2005,Kabupaten Bogor,Kec. Pamijahan,Alam,Curug Cigamea,68,15,False,False
+OBJ-0010,2005,Kabupaten Bogor,"Desa Gunung Bunder, Kec. Leuwiliang",Alam,Curug Seribu,68,15,False,False
+OBJ-0011,2005,Kabupaten Bogor,"Desa Gunung Bunder, Kec. Leuwiliang",Alam,Curug Ngumpet,68,15,False,False
+OBJ-0012,2005,Kabupaten Bogor,"Desa Gunung Bunder, Kec. Leuwiliang",Alam,Bumi Perkemahan Gunung Bunder,68,15,False,False
+OBJ-0013,2005,Kabupaten Bogor,"Desa Areapura, Kec. Cigudeg",Alam,Goa Godawang,68,15,False,False
+OBJ-0014,2005,Kabupaten Bogor,"Desa Cogreg, Kec. Parung",Alam,Air Panas Ciseeng,68,15,False,False
+OBJ-0015,2005,Kabupaten Bogor,"Desa Cimandala, Kec. Babakan Madang",Alam,Air Panas Gunung Pancar,68,15,False,False
+OBJ-0016,2005,Kabupaten Bogor,"Desa Tamansari, Kec. Ciomas",Alam,Bumi Perkemahan Sukamantri,68,15,False,False
+OBJ-0017,2005,Kabupaten Bogor,"Desa Canagara, Kec. Ciomas",Alam,Curug Cikaracak,68,15,False,False
+OBJ-0018,2005,Kabupaten Bogor,"Kawasan GSE, Kec. Pamijahan",Alam,Kawah Ratu,68,15,False,False
+OBJ-0019,2005,Kabupaten Bogor,"Desa Cimandala, Kec. Babakan Madang",Alam,Kawah Hitam Giri Tirta,68,15,False,False
+OBJ-0020,2005,Kabupaten Bogor,"Desa Cibeureum, Kec. Cisarua",Buatan,Taman Safari Indonesia,68,15,False,False
+OBJ-0021,2005,Kabupaten Bogor,"Desa Sentul, Kec. Citeureup",Buatan,Sirkuit Sentul,68,15,False,False
+OBJ-0022,2005,Kabupaten Bogor,Kec. Cisarua,Buatan,Wisata Agro Gunung Mas,69,15,False,False
+OBJ-0023,2005,Kabupaten Bogor,"Desa Mekarsari, Kec. Cileungsi",Buatan,Taman Buah Mekarsari,69,15,False,False
+OBJ-0024,2005,Kabupaten Bogor,"Desa Cijeruk, Kec. Cijeruk",Buatan,Taman Rekreasi Lido,69,15,False,False
+OBJ-0025,2005,Kabupaten Bogor,"Desa Wates Jaya, Kec. Cijeruk",Buatan,Wana Wisata Bodogol,69,15,False,False
+OBJ-0026,2005,Kabupaten Bogor,"Desa Buana Jaya, Kec. Cariu",Buatan,Penangkaran Rusa Giri Jaya,69,15,False,False
+OBJ-0027,2005,Kabupaten Bogor,Kec. Cisarua,Buatan,Wana Wisata Citamiang,69,15,False,False
+OBJ-0028,2005,Kabupaten Sukabumi,"Desa Sirnaresmi, Kec. Cisolok",Budaya,Kampung Adat Gede,69,15,False,False
+OBJ-0029,2005,Kabupaten Sukabumi,"Desa Sirnaresmi, Kec. Cisolok",Budaya,Kasepuhan Ciptagelar,69,15,False,False
+OBJ-0030,2005,Kabupaten Sukabumi,"Desa Pajagan, Kec. Cikidang",Alam,Arung Jeram Citarik,69,15,False,False
+OBJ-0031,2005,Kabupaten Sukabumi,"Desa Padabeunghar, Kec. Jampang Tengah",Alam,Arung Jeram Cimandiri,69,15,False,False
+OBJ-0032,2005,Kabupaten Sukabumi,"Desa Cicatih, Kec. Warung Kiara",Alam,Arung Jeram Cicatih,69,15,False,False
+OBJ-0033,2005,Kabupaten Sukabumi,"Desa Citarik, Kec. Pelabuhan Ratu",Alam,Goa Lalay,69,15,False,False
+OBJ-0034,2005,Kabupaten Sukabumi,"Desa Cikakak, Kec. Cisolok",Alam,Pantai Karang Hawu,69,15,False,False
+OBJ-0035,2005,Kabupaten Sukabumi,"Desa Citepus, Kec. Cisolok",Alam,Pantai Citepus,69,15,False,False
+OBJ-0036,2005,Kabupaten Sukabumi,"Desa Cisolok, Kec. Cisolok",Alam,Diving Pelabuhanratu,69,15,False,False
+OBJ-0037,2005,Kabupaten Sukabumi,"Desa Cisolok, Kec. Cisolok",Alam,Pantai Karanghawu II,69,15,False,False
+OBJ-0038,2005,Kabupaten Sukabumi,"Desa Cisolok, Kec. Pelabuhan Ratu",Alam,Pantai Gadobangkong,69,15,False,False
+OBJ-0039,2005,Kabupaten Sukabumi,Desa Sriwijaya Girang,Alam,Curug Cibeureum,69,15,False,False
+OBJ-0040,2005,Kabupaten Sukabumi,"Desa Pasar Baru, Kec. Cisolok",Alam,Pantai Cibareno,69,15,False,False
+OBJ-0041,2005,Kabupaten Sukabumi,"Desa Pasar Baru, Kec. Cisolok",Alam,Pantai Cibangban,69,15,False,False
+OBJ-0042,2005,Kabupaten Sukabumi,"Desa Citepus, Kec. Cisolok",Alam,Pantai Citepus Balai Desa,69,15,False,False
+OBJ-0043,2005,Kabupaten Cianjur,"Desa Cijagong, Kec. Cikalong Kulon",Budaya,Makam Dalem Cikundul,70,15,False,False
+OBJ-0044,2005,Kabupaten Cianjur,"Desa Rarahan Cibodas, Kec. Pacet",Alam,Taman Nasional Gede Pangrango,70,15,False,False
+OBJ-0045,2005,Kabupaten Cianjur,"Desa Kertajati, Kec. Cidaun",Alam,Pantai Jayanti,70,15,False,False
+OBJ-0046,2005,Kabupaten Cianjur,"Desa Cimacan, Kec. Pacet",Buatan,Kebun Raya Cibodas,70,15,False,False
+OBJ-0047,2005,Kabupaten Cianjur,"Desa Kawungluwuk, Kec. Sukaresmi",Buatan,Taman Bunga Nusantara,70,15,False,False
+OBJ-0048,2005,Kabupaten Cianjur,"Jl. Raya Cipanas, Kec. Pacet",Buatan,Istana Kepresidenan Cipanas,70,15,False,False
+OBJ-0049,2005,Kabupaten Bandung,Kec. Margaasih,Budaya,Kampung Adat Mahmud,70,15,False,False
+OBJ-0050,2005,Kabupaten Bandung,Kec. Pangalengan,Budaya,Kampung Adat Cikondang,70,15,False,False
+OBJ-0051,2005,Kabupaten Bandung,Kec. Lembang,Alam,Gunung Tangkuban Parahu,70,15,False,False
+OBJ-0052,2005,Kabupaten Bandung,Kec. Lembang,Alam,Maribaya,70,15,False,False
+OBJ-0053,2005,Kabupaten Bandung,Kec. Ciwidey,Alam,Situ Patenggang,70,15,False,False
+OBJ-0054,2005,Kabupaten Bandung,Kec. Ciwidey,Alam,Air Panas Cimanggu,70,15,False,False
+OBJ-0055,2005,Kabupaten Bandung,Kec. Ciwidey,Alam,Air Panas Walini,70,15,False,False
+OBJ-0056,2005,Kabupaten Bandung,Kec. Ciwidey,Alam,Kawah Putih,70,15,False,False
+OBJ-0057,2005,Kabupaten Bandung,Kec. Paseh,Alam,Kawah Kamojang,70,15,False,False
+OBJ-0058,2005,Kabupaten Bandung,Kec. Padalarang,Alam,Situ Ciburuy,70,15,False,False
+OBJ-0059,2005,Kabupaten Bandung,Kec. Lembang,Alam,Jayagiri,70,15,False,False
+OBJ-0060,2005,Kabupaten Bandung,Kec. Lembang,Buatan,Peneropongan Bintang Boscha,70,15,False,False
+OBJ-0061,2005,Kabupaten Bandung,Kec. Cipatat,Buatan,Waduk Saguling,70,15,False,False
+OBJ-0062,2005,Kabupaten Bandung,Kec. Cipeundeuy,Buatan,Waduk Cirata,70,15,False,False
+OBJ-0063,2005,Kabupaten Bandung,Kec. Cipatat,Buatan,Gua Pawon,70,15,False,False
+OBJ-0064,2005,Kabupaten Garut,Kec. Leles,Budaya,Rumah Adat Kampung Pulo,71,15,False,False
+OBJ-0065,2005,Kabupaten Garut,Kec. Leles,Budaya,Candi Cangkuang,71,15,False,False
+OBJ-0066,2005,Kabupaten Garut,Kec. Karangpawitan,Budaya,Makam Kramat Godog,71,15,False,False
+OBJ-0067,2005,Kabupaten Garut,Kec. Cikelet,Budaya,Rumah Adat Kampung Dukuh,71,15,False,False
+OBJ-0068,2005,Kabupaten Garut,Kec. Banyuresmi,Budaya,Cagar Budaya Ciburuy,71,15,False,False
+OBJ-0069,2005,Kabupaten Garut,Kec. Leuwigoong,Budaya,Makam Kramat Jafar Sidik,71,15,False,False
+OBJ-0070,2005,Kabupaten Garut,Kec. Wanaraja,Budaya,Makam Kramat Cinunuk,71,15,False,False
+OBJ-0071,2005,Kabupaten Garut,Kec. Banyuresmi,Alam,Situ Bagendit,71,15,False,False
+OBJ-0072,2005,Kabupaten Garut,Kec. Leles,Alam,Situ Cangkuang,71,15,False,False
+OBJ-0073,2005,Kabupaten Garut,Kec. Cisurupan,Alam,Kawah Papandayan,71,15,False,False
+OBJ-0074,2005,Kabupaten Garut,Kec. Cikelet,Alam,Pantai Santolo,71,15,False,False
+OBJ-0075,2005,Kabupaten Garut,Kec. Bungbulang,Alam,Pantai Cijayana,71,15,False,False
+OBJ-0076,2005,Kabupaten Garut,Kec. Caringin,Alam,Ranca Buaya,71,15,False,False
+OBJ-0077,2005,Kabupaten Garut,Kec. Cibolang,Alam,Pantai Cijenuk Indah,71,15,False,False
+OBJ-0078,2005,Kabupaten Garut,Kec. Cibolang,Alam,Pantai Karang Paranje,71,15,False,False
+OBJ-0079,2005,Kabupaten Garut,Kec. Cibolang,Alam,Hutan Sancang,71,15,False,False
+OBJ-0080,2005,Kabupaten Garut,Kec. Cikajang,Alam,Curug Orok,71,15,False,False
+OBJ-0081,2005,Kabupaten Garut,Kec. Cikelet,Alam,Pantai Karang Numpang/Manalusu,71,15,False,False
+OBJ-0082,2005,Kabupaten Garut,Kec. Cikelet,Alam,Pantai Gunung Geder,71,15,False,False
+OBJ-0083,2005,Kabupaten Garut,Kec. Cilawu,Alam,Curug Cihanyamar,71,15,False,False
+OBJ-0084,2005,Kabupaten Garut,Kec. Cisompet,Alam,Air Terjun Neglasari,71,15,False,False
+OBJ-0085,2005,Kabupaten Garut,Kec. Kadungora,Alam,Curug Cimandi Racun,71,15,False,False
+OBJ-0086,2005,Kabupaten Garut,Kec. Pameungpeuk,Alam,Pantai Sayang Heulang,71,15,False,False
+OBJ-0087,2005,Kabupaten Garut,Kec. Pameungpeuk,Alam,Pantai Darmaga,71,15,False,False
+OBJ-0088,2005,Kabupaten Garut,Kec. Pasir Wangi,Alam,Kawah Darajat,72,15,False,False
+OBJ-0089,2005,Kabupaten Garut,Kec. Tarogong,Alam,Pemandian Cipanas Tarogong,72,15,False,False
+OBJ-0090,2005,Kabupaten Garut,Kec. Tarogong,Alam,Curug Citiis,72,15,False,False
+OBJ-0091,2005,Kabupaten Garut,Kec. Wanaraja,Alam,Kawah Telaga Bodas,72,15,False,False
+OBJ-0092,2005,Kabupaten Garut,Kec. Cilawu,Buatan,Lapang Golf Ngamplang,72,15,False,False
+OBJ-0093,2005,Kabupaten Tasikmalaya,"Desa Neglasari, Kec. Kawalu",Budaya,Kampung Adat Naga,72,15,False,False
+OBJ-0094,2005,Kabupaten Tasikmalaya,"Desa Pamijahan, Kec. Bantarkalong",Budaya,Pamijahan,72,15,False,False
+OBJ-0095,2005,Kabupaten Tasikmalaya,"Desa Cibalong, Kec. Sodong Hilir",Budaya,Makam Tb. Anggariji,72,15,False,False
+OBJ-0096,2005,Kabupaten Tasikmalaya,"Desa Cipatujah, Kec. Cipatujah",Alam,Pantai Cipatujah,72,15,False,False
+OBJ-0097,2005,Kabupaten Tasikmalaya,"Desa Sindang Kerta, Kec. Cipatujah",Alam,Pantai Sindangkerta,72,15,False,False
+OBJ-0098,2005,Kabupaten Tasikmalaya,"Desa Cimanuk, Kec. Cikalong",Alam,Pantai Karangtawulan,72,15,False,False
+OBJ-0099,2005,Kabupaten Tasikmalaya,"Desa Cikawung Ading, Kec. Cipatujah",Alam,Pantai Pamayangsari,72,15,False,False
+OBJ-0100,2005,Kabupaten Tasikmalaya,"Desa Ciheras, Kec. Cipatujah",Buatan,Taman Bubujung Indah,72,15,False,False
+OBJ-0101,2005,Kabupaten Ciamis,Kec. Tambaksari,Budaya,Kampung Adat Kuta,72,15,False,False
+OBJ-0102,2005,Kabupaten Ciamis,"Desa Karangkamulyan, Kec. Cijeungjing",Budaya,Karang Kamulyan,72,15,False,False
+OBJ-0103,2005,Kabupaten Ciamis,"Desa Kawali, Kec. Kawali",Budaya,Astana Gede,72,15,False,False
+OBJ-0104,2005,Kabupaten Ciamis,"Desa Lengkong, Kec. Panjalu",Budaya,Makam Situ Lengkong,72,15,False,False
+OBJ-0105,2005,Kabupaten Ciamis,Desa Pananjung,Alam,Pantai Pangandaran,72,15,False,False
+OBJ-0106,2005,Kabupaten Ciamis,"Desa Ciliang, Kec. Parigi",Alam,Batu Hiu,72,15,False,False
+OBJ-0107,2005,Kabupaten Ciamis,"Desa Batu Karas, Kec. Cijulang",Alam,Batu Karas,73,15,False,False
+OBJ-0108,2005,Kabupaten Ciamis,"Desa Kertayasa, Kec. Cijulang",Alam,Cukang Taneuh,73,15,False,False
+OBJ-0109,2005,Kabupaten Ciamis,"Desa Emplak, Kec. Kalipucang",Alam,Karang Nini,73,15,False,False
+OBJ-0110,2005,Kabupaten Ciamis,Desa Pananjung,Alam,Cagar Alam Pananjung,73,15,False,False
+OBJ-0111,2005,Kabupaten Ciamis,"Desa Panjalu, Kec. Panjalu",Alam,Situ Lengkong,73,15,False,False
+OBJ-0112,2005,Kabupaten Kuningan,"Desa Lengkong, Kec. Garawangi",Budaya,Rumah Adat Lengkong,73,15,False,False
+OBJ-0113,2005,Kabupaten Kuningan,"Desa Cipari, Kec. Cigugur",Budaya,Taman Purbakala Cipari,73,15,False,False
+OBJ-0114,2005,Kabupaten Kuningan,"Desa Linggarjati, Kec. Cilimus",Budaya,Gedung Perundingan Linggarjati,73,15,False,False
+OBJ-0115,2005,Kabupaten Kuningan,Kec. Pasawahan,Alam,Telaga Remis,73,15,False,False
+OBJ-0116,2005,Kabupaten Kuningan,Kec. Cilimus,Alam,Sangkan Hurip Alami,73,15,False,False
+OBJ-0117,2005,Kabupaten Kuningan,,Alam,Bumi Perkemahan Palutungan,73,15,True,False
+OBJ-0118,2005,Kabupaten Kuningan,Kec. Darma,Alam,Pendakian Gunung Ceremai,73,15,False,False
+OBJ-0119,2005,Kabupaten Kuningan,,Buatan,Waduk Darma,73,15,True,False
+OBJ-0120,2005,Kabupaten Kuningan,Kec. Darma,Buatan,Cigugur,73,15,False,False
+OBJ-0121,2005,Kabupaten Kuningan,,Buatan,Darmaloka,73,15,True,False
+OBJ-0122,2005,Kabupaten Cirebon,"Desa Astana, Kec. Cirebon Utara",Budaya,Makam Sunan Gunung Jati,73,15,False,False
+OBJ-0123,2005,Kabupaten Cirebon,"Kelurahan Trusmi, Kec. Weru",Budaya,Trusmi,73,15,False,False
+OBJ-0124,2005,Kabupaten Cirebon,"Plangon, Kelurahan Babakan, Kec. Sumber",Alam,Rangon,73,15,False,False
+OBJ-0125,2005,Kabupaten Cirebon,"Desa Palimanan, Kec. Palimanan",Alam,Banyu Panas Palimanan,73,15,False,False
+OBJ-0126,2005,Kabupaten Majalengka,"Desa Panjalin, Kec. Purwakarta",Budaya,Rumah Adat Panjalin,74,15,False,False
+OBJ-0127,2005,Kabupaten Majalengka,"Desa Pajajar, Kec. Rajagaluh",Alam,Hutan Lindung Prabu Siliwangi,74,15,False,False
+OBJ-0128,2005,Kabupaten Majalengka,"Desa Indrakila, Kec. Sukahaji",Buatan,Kolam Renang Telaga Emas,74,15,False,False
+OBJ-0129,2005,Kabupaten Majalengka,"Desa Cigasong, Kec. Cigasong",Buatan,Rekreasi Sang Raja,74,15,False,False
+OBJ-0130,2005,Kabupaten Sumedang,Jl. P. Geusan Ulun,Budaya,Museum Yayasan Pangeran Geusan Ulun,74,15,False,False
+OBJ-0131,2005,Kabupaten Sumedang,Desa Dayeuh Luhur,Budaya,Makam Dayeuh Luhur,74,15,False,False
+OBJ-0132,2005,Kabupaten Sumedang,"Desa Tolengas, Kec. Tomo",Budaya,Makam Marangge,74,15,False,False
+OBJ-0133,2005,Kabupaten Sumedang,"Jl. Conggeang Buah Dua, Kec. Buah Dua",Alam,Cipanas Cileungsing,74,15,False,False
+OBJ-0134,2005,Kabupaten Sumedang,"Jl. Conggeang Buah Dua, Kec. Conggeang",Alam,Cipanas Sekarwangi,74,15,False,False
+OBJ-0135,2005,Kabupaten Sumedang,"Jl. Pala Sari, Kec. Sumedang Selatan",Alam,Gunung Kunci,74,15,False,False
+OBJ-0136,2005,Kabupaten Sumedang,"Desa Sukajaya, Kec. Sumedang Selatan",Buatan,Kampung Toga,74,15,False,False
+OBJ-0137,2005,Kabupaten Sumedang,"Desa Citengah, Kec. Sumedang Selatan",Buatan,Cibingbin,74,15,False,False
+OBJ-0138,2005,Kabupaten Sumedang,Jl. Jatinangor,Buatan,Bandung Giri Gahana,74,15,False,False
+OBJ-0139,2005,Kabupaten Sumedang,Kec. Rancakalong,Buatan,Desa Wisata Rawakalong,74,15,False,False
+OBJ-0140,2005,Kabupaten Indramayu,"Desa Junti Kedokan, Kec. Juntinyuat",Alam,Pantai Tirta Maya,74,15,False,False
+OBJ-0141,2005,Kabupaten Indramayu,Kec. Jatibarang,Alam,Pantai Banjar Bulak,74,15,False,False
+OBJ-0142,2005,Kabupaten Subang,Jl. Raya Pondok Bali,Alam,Pantai Pondok Bali,75,15,False,False
+OBJ-0143,2005,Kabupaten Subang,Jl. Raya Ciater,Alam,Sari Ater,75,15,False,False
+OBJ-0144,2005,Kabupaten Subang,Kec. Sagalaherang,Alam,Curug Cijalu,75,15,False,False
+OBJ-0145,2005,Kabupaten Subang,Kec. Sagalaherang,Alam,Batu Kapur,75,15,False,False
+OBJ-0146,2005,Kabupaten Purwakarta,"Kelurahan Cipaisan, Kec. Purwakarta",Budaya,Makam Syech Baing Yusuf,75,15,False,False
+OBJ-0147,2005,Kabupaten Purwakarta,,Buatan,Grama Tirta Jatiluhur,75,15,True,False
+OBJ-0148,2005,Kabupaten Purwakarta,,Buatan,Sentra Keramik Plered,75,15,True,False
+OBJ-0149,2005,Kabupaten Purwakarta,,Buatan,Desa Wisata Pasanggrahan,75,15,True,False
+OBJ-0150,2005,Kabupaten Purwakarta,,Alam,Situ Wanayasa,75,15,True,False
+OBJ-0151,2005,Kabupaten Purwakarta,,Alam,Gunung Parang,75,15,True,False
+OBJ-0152,2005,Kabupaten Karawang,"Desa Seragan, Kec. Batujaya",Budaya,Situs Candi Jiwa,75,15,False,False
+OBJ-0153,2005,Kabupaten Karawang,"Desa Cibuaya, Kec. Pedes",Budaya,Situs Candi Lanang Cibuaya,75,15,False,False
+OBJ-0154,2005,Kabupaten Karawang,"Desa Pulo Lapan, Lemah Abang",Budaya,Makam Syakh Quro,75,15,False,False
+OBJ-0155,2005,Kabupaten Karawang,Kec. Rengasdengklok,Budaya,Monumen Rengasdengklok,75,15,False,False
+OBJ-0156,2005,Kabupaten Karawang,Kec. Pakisjaya,Alam,Pantai Tanjung Pakis/Pakis Jaya,75,15,False,False
+OBJ-0157,2005,Kabupaten Karawang,Kec. Cilamaya Kulon,Alam,Pantai Tanjung Baru/Pasir Jaya,75,15,False,False
+OBJ-0158,2005,Kabupaten Karawang,,Alam,Pantai Pisangan/Cemara Jaya,75,15,True,False
+OBJ-0159,2005,Kota Bogor,Jl. Batutulis No. 54,Budaya,Prasasti Batu Tulis,76,15,False,False
+OBJ-0160,2005,Kota Bogor,Jl. Ir. H. Juanda No. 9,Budaya,Museum Zoologi,76,15,False,True
+OBJ-0161,2005,Kota Bogor,Jl. Ir. H. Juanda No. 2,Budaya,Museum Etnobotani,76,15,False,False
+OBJ-0162,2005,Kota Bogor,Jl. Merdeka No. 56,Budaya,Museum Perjuangan,76,15,False,False
+OBJ-0163,2005,Kota Bogor,Jl.,Budaya,Museum Zoologi,76,15,False,True
+OBJ-0164,2005,Kota Bogor,Jl. Ir. H. Juanda No. 98,Budaya,Museum Tanah,76,15,False,False
+OBJ-0165,2005,Kota Bogor,Jl. Ir. H. Juanda No. 13,Alam,Kebun Raya Bogor,76,15,False,False
+OBJ-0166,2005,Kota Bogor,Kec. Situ Gede,Alam,Situ Gede,76,15,False,False
+OBJ-0167,2005,Kota Bogor,Jl. Ir. H. Juanda No. 1,Buatan,Istana Kepresidenan,76,15,False,False
+OBJ-0168,2005,Kota Bogor,Jl. Kapten Muslihat No. 51,Buatan,Plaza Kapten Muslihat,76,15,False,False
+OBJ-0169,2005,Kota Sukabumi,Jl. Proklamasi,Alam,Santa,76,15,False,False
+OBJ-0170,2005,Kota Bandung,Jl. Diponegoro No. 57,Budaya,Museum Geologi,77,15,False,False
+OBJ-0171,2005,Kota Bandung,Jl. Lembong,Budaya,Museum Siliwangi,77,15,False,False
+OBJ-0172,2005,Kota Bandung,Jl. BKR No. 185,Budaya,Museum Sri Baduga,77,15,False,True
+OBJ-0173,2005,Kota Bandung,Jl. Asia Afrika,Budaya,Museum Asia Afrika,77,15,False,False
+OBJ-0174,2005,Kota Bandung,Jl. BKR No. 185,Budaya,Museum Sri Baduga,77,15,False,True
+OBJ-0175,2005,Kota Bandung,Jl. Cilaki No. 73,Budaya,Museum Pos Indonesia,77,15,False,False
+OBJ-0176,2005,Kota Bandung,Jl. Geusan Ulun,Budaya,Museum Yayasan,77,15,False,False
+OBJ-0177,2005,Kota Bandung,Dago Atas,Alam,THR Ir. H. Juanda,77,15,False,False
+OBJ-0178,2005,Kota Bandung,Jl. Taman Sari Balubur,Buatan,Kebun Binatang,77,15,False,False
+OBJ-0179,2005,Kota Bandung,Jl. Belitung,Buatan,Taman Lalu Lintas Ade Irma Suryani,77,15,False,False
+OBJ-0180,2005,Kota Bandung,Jl. Sukajadi,Buatan,Karang Setra,77,15,False,False
+OBJ-0181,2005,Kota Bandung,Jl. Cihampelas,Buatan,Wisata Belanja,77,15,False,True
+OBJ-0182,2005,Kota Bandung,Jl. Cibaduyut,Buatan,Wisata Belanja,77,15,False,True
+OBJ-0183,2005,Kota Cirebon,Kelurahan Kasepuhan,Budaya,Keraton Kasepuhan,77,15,False,False
+OBJ-0184,2005,Kota Cirebon,Kelurahan Sunan Wunguk,Budaya,Keraton Kanoman,77,15,False,False
+OBJ-0185,2005,Kota Cirebon,Kelurahan Pulasaren,Budaya,Keraton Kacirebonan,77,15,False,False
+OBJ-0186,2005,Kota Cirebon,Kelurahan Kasepuhan,Budaya,Mesjid Agung Sang Cipta Rasa,77,15,False,False
+OBJ-0187,2005,Kota Cirebon,Kelurahan Panjunan,Budaya,Mesjid Merah Panjunan,77,15,False,False
+OBJ-0188,2005,Kota Cirebon,Kelurahan Lemah Wungkuk,Alam,Taman Ade Irma Suryani Nasution,77,15,False,False
+OBJ-0189,2005,Kota Cirebon,Kelurahan Sunyaragi,Alam,Gua Sunyaragi,77,15,False,False
+OBJ-0190,2005,Kota Cirebon,Kelurahan Kalijaya,Alam,Taman Kera Kalijaga,77,15,False,False
+OBJ-0191,2005,Kota Depok,"Jl. Dewi Sartika, Kec. Pancoran",Alam,Setu Rawa Besar,78,15,False,False
+OBJ-0192,2005,Kota Cimahi,Desa Cireundeu,Alam,Desa Cireundeu,78,15,False,False
+OBJ-0193,2005,Kota Tasikmalaya,"Desa G. Gede, Kec. Kawalu",Budaya,Makam Syekh Abdul Ghorib,78,15,False,False
+OBJ-0194,2005,Kota Tasikmalaya,"Desa Lingga Jaya, Kec. Mangkubumi",Alam,Situ Gede,78,15,False,False
+OBJ-0195,2005,Kota Tasikmalaya,Jl. Raya Singaparna,Alam,Taman Rekreasi Mangku Bumi,78,15,False,False
+OBJ-0196,2005,Kota Tasikmalaya,Jl. Raya Ciamis,Alam,Taman Rekreasi Karang Resik,78,15,False,False
+OBJ-0197,2005,Kota Tasikmalaya,"Jl. Sukamulya, Indihiang",Alam,Taman Rekreasi Mutiara Sukamulya,78,15,False,False
+OBJ-0198,2005,Kota Banjar,"Desa Purwaharja, Kec. Purwaharja",Alam,Situ Mustika,78,15,False,False

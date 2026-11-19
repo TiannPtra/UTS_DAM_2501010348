@@ -1,0 +1,14 @@
+﻿metrik,nilai
+status_scraping,tidak dijalankan/dihentikan
+alasan/keterangan,ToS belum dikonfirmasi (TOS_SUDAH_DIBACA/TOS_CATATAN belum diisi)
+keputusan_robots,ALLOW_NO_ROBOTS
+tos_dikonfirmasi_manual,False
+filter_provinsi_terdeteksi,
+item_pada_daftar,0
+detail_diambil,0
+baris_jawa_barat,0
+duplikat_url_detail,0
+batas_halaman_daftar,5
+batas_detail,60
+kontak_pribadi_dikumpulkan,tidak
+catatan_teknis,-

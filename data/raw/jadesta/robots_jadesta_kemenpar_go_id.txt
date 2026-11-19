@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+
+<head>
+	<base href="/" />
+	<title>Jejaring Desa Wisata</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/imgs/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/imgs/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/imgs/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/imgs/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/imgs/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/imgs/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/imgs/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/imgs/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/imgs/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/imgs/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png">
+	<link rel="manifest" href="/imgs/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/imgs/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta content="Jejaring Desa Wisata" name="description">
+	<meta content="Kementerian Pariwisata Republik Indonesia" name="author">
+	<meta content="Jejaring Desa Wisata, Jadesta, Kemenparekraf" name="keywords">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main-color.css" id="colors">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130935175-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-130935175-1');
+	</script>
+	<style>
+		nav.sosmed {
+			display: none;
+			position: fixed;
+			width: 60px;
+			top: 0px;
+			left: 0px;
+			margin-top: 140px;
+			transition: all 0.3s linear;
+			box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+			z-index: 99999;
+		}
+
+		nav.sosmed ul {
+			margin-top: 0;
+			margin-bottom: 0rem
+		}
+
+		nav.sosmed li {
+			height: 45px;
+			position: relative
+		}
+
+		nav.sosmed li a {
+			color: #fff !important;
+			display: block;
+			height: 100%;
+			width: 100%;
+			line-height: 45px;
+			padding-left: 0%;
+			border-bottom: 1px solid rgba(0, 0, 0, .4);
+			transition: all .3s linear;
+			text-decoration: none !important
+		}
+
+		nav.sosmed li:nth-child(1) a {
+			background: #4267B2
+		}
+
+		nav.sosmed li:nth-child(2) a {
+			background: #E1306C
+		}
+
+		nav.sosmed li:nth-child(3) a {
+			background: #1DA1F2
+		}
+
+		nav.sosmed li:nth-child(4) a {
+			background: #ff0000
+		}
+
+		nav.sosmed li:nth-child(5) a {
+			background: #333
+		}
+
+		nav.sosmed li:nth-child(6) a {
+			background: #ff0000
+		}
+
+		nav.sosmed li a i {
+			position: absolute;
+			top: 0px;
+			left: 12px;
+			font-size: 27px
+		}
+
+		nav.sosmed ul li a span {
+			display: none;
+			font-weight: bold;
+			letter-spacing: 1px;
+			text-transform: uppercase
+		}
+
+		nav.sosmed a:hover {
+			z-index: 1;
+			width: 240px;
+			border-bottom: 1px solid rgba(0, 0, 0, .5);
+			box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3)
+		}
+
+		nav.sosmed ul li:hover a span {
+			padding-left: 0%;
+			display: block;
+			font-size: 15px
+		}
+
+		nav.sosmed ul {
+			padding-left: 15px;
+			list-style-type: none;
+			padding-inline-start: 0px;
+			margin-block-start: 0px;
+		}
+
+		.R_title {
+			background: rgba(0, 0, 0, 0.3);
+			display: inline;
+			padding: 3px 10px;
+		}
+
+		.caption-text {
+			background: rgba(0, 0, 0, 0.3);
+			display: inline;
+			padding: 3px 10px;
+		}
+
+		.float {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 20px;
+			right: 80px;
+			background-color: #25d366;
+			color: #FFF;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 2px 2px 3px #999;
+			z-index: 100;
+		}
+
+		.my-float {
+			margin-top: 16px;
+		}
+
+		.fileremover {
+			cursor: pointer;
+			font-weight: bold;
+			color: #cb100a;
+		}
+
+		.boxed-widget {
+			padding: 12px;
+		}
+
+		.boxed-widget h3 {
+			padding: 0 0 5px;
+			margin: 0 0 5px 0;
+		}
+	</style>
+
+	<!-- untuk survey -->
+	<style>
+		.form-container_survey {
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			width: 100%;
+			max-width: 500px;
+		}
+
+		.form-group_survey {
+			margin-bottom: 15px;
+		}
+
+		.modal_survey {
+			display: none;
+			position: fixed;
+			z-index: 1000;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+
+		.modal-content_survey {
+			background-color: #fefefe;
+			margin: 15% auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%;
+			max-width: 300px;
+			text-align: center;
+			border-radius: 8px;
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+		}
+
+		.modal-content_survey.success {
+			border-left: 5px solid #28a745;
+		}
+
+		.modal-content_survey.error {
+			border-left: 5px solid #dc3545;
+		}
+
+		.close-btn_survey {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+			line-height: 1;
+		}
+
+		.close-btn_survey:hover,
+		.close-btn_survey:focus {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.modal-content_survey {
+			height: 80%;
+			background-color: #fefefe;
+			margin: 2% auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 90%;
+			max-width: 100%;
+			text-align: center;
+			border-radius: 8px;
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+		}
+
+		.modal-content_survey .iframe-active_survey #modalMessage {
+			display: none;
+		}
+	</style>
+	<!-- untuk survey -->
+
+	
+	
+
+</head>
+
+<body class="">
+
+	<div id="wrapper">
+
+		<header id="header-container" class="fullwidth">
+			<div id="header">
+				<div class="container">
+					<div class="left-side">
+						<div id="logo">
+							<a href="/"><img src="img/kemenpar.png" alt=""></a>
+							<a href="/" style="margin-left: 8px;"><img src="img/pesonaindonesia.png" alt=""></a>
+							<a href="/" style="margin-left: 8px;"><img src="img/berakhlak.png" alt=""></a>
+						</div>
+						<div class="mmenu-trigger">
+							<button class="hamburger hamburger--collapse" type="button">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</button>
+						</div>
+						<nav id="navigation" class="style-1">
+							<ul id="responsive">
+								
+<li>
+<a href="home" class="">Home</a>
+</li>
+<li>
+<a href="/sebaran" class="">Peta Sebaran</a>
+</li>
+<li>
+<a href="#" class="">Kategori <i class="la la-angle-down"></i></a>
+<ul class="dropdown-menu-item">
+    <li><a href="/desa/kategori/71">Rintisan</a></li><li><a href="/desa/kategori/72">Berkembang</a></li><li><a href="/desa/kategori/73">Maju</a></li><li><a href="/desa/kategori/74">Mandiri</a></li><li><a href="/desa">Semua Kategori</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="">Produk Wisata <i class="la la-angle-down"></i></a>
+<ul class="dropdown-menu-item">
+<li>
+    <a href="#">Atraksi <i class="la la-plus"></i></a>
+    <ul class="sub-menu">
+    <li><a href="atraksi/jenis/59">Wisata Alam (9,734)</a></li>
+    <li><a href="atraksi/jenis/60">Wisata Budaya (5,857)</a></li>
+    <li><a href="atraksi/jenis/61">Wisata Buatan (3,344)</a></li>
+    </ul>
+</li>
+<li><a href="/paket/jenis/105">Paket Wisata</a></li><li><a href="/paket/jenis/112">Suvenir</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="">Informasi <i class="la la-angle-down"></i></a>
+<ul class="dropdown-menu-item">
+    <li><a href="berita/event">Event </a></li>
+    <li>
+        <a href="#">Materi Bimtek <i class="la la-plus"></i></a>
+        <ul class="sub-menu">
+        <li><a href="https://drive.google.com/file/d/1no_QUzEaNs8FT38C3_rSBfcYGef8faih/view" target="_blank">Bimtek Jadesta</a></li>
+        <li><a href="https://drive.google.com/file/d/1cnGi0q3_w70p9OPhxqrXJuPD-X9tz5ih/view" target="_blank">Dewan Juri ADWI 2024</a></li>
+        <li><a href="https://drive.google.com/file/d/1oXZqN9jNzdBXxdFMFGaQmKN7-stegBC5/view" target="_blank">Tahapan Penilaian</a></li>
+        <li><a href="https://drive.google.com/file/d/1L4NkSMPK5bxdF0S9CPnN3EX18vmYXIwx/view" target="_blank">Kategori DTW dan Digital</a></li>
+        <li><a href="https://drive.google.com/file/d/1ArIo37RvQOgrs0qlldPcwVwabfL4oqCs/view" target="_blank">Kategori Amenitas</a></li>
+        <li><a href="https://drive.google.com/file/d/1gYpnKRmzJQ4dEb-xOGG0us0XKB2wUFXv/view" target="_blank">Kategori Kelembagaan dan Resiliensi</a></li>
+        </ul>
+    </li>
+    <li><a href="direktori">Direktori </a></li>
+    <li><a href="faq">Pertanyaan dan Jawaban </a></li>
+    <li><a href="video50adwi2021">Video 50 Besar ADWI 2021 </a></li>
+    <li><a href="video50adwi2022">Video 50 Besar ADWI 2022 </a></li>
+    <li><a href="video50adwi2023">Video 75 Besar ADWI 2023 </a></li>
+    <li><a href="video50adwi2024">Video 50 Besar ADWI 2024 </a></li>
+    </ul>
+</li>
+<li>
+    <a href="#" class="">Forum <i class="la la-angle-down"></i></a>
+    <ul class="dropdown-menu-item">
+    <li><a href="/jejaring/18">ADWI 2024</a></li><li><a href="/jejaring/17">ADWI 2023</a></li><li><a href="/jejaring/16">ADWI 2022</a></li><li><a href="/jejaring/15">ADWI 2021</a></li><li><a href="/jejaring/14">Forum Jadesta</a></li>
+    </ul>
+</li>
+
+
+							</ul>
+						</nav>
+						<div class="clearfix"></div>
+					</div>
+					<div class="right-side">
+						<div class="header-widget">
+							        <a href="/login" class="sign-in"><i class="sl sl-icon-login"></i> Login</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="clearfix"></div>
+
+		
+		404 - Not found
+
+		<div id="footer" class="dark">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<img class="footer-logo" src="/img/deswit_white.png" alt="" style="width:148px" /><br /><br />
+						<img class="footer-logo" src="/img/jadestawhite.png" alt="" style="width:148px" />
+						<div class="text-widget">
+							<span>Jejaring Desa Wisata</span> <br>
+						</div>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kemenpar.newjadesta">
+							<img src="/images/google-play.png" alt="" style="width:148px" />
+						</a>
+					</div>
+
+					<div class="col-md-6 col-sm-6 ">
+						<h4>Klasifikasi Desa Wisata</h4>
+						<ul class="footer-links">
+							<li><a href="desa/kategori/71">Rintisan</a></li>
+							<li><a href="desa/kategori/72">Berkembang</a></li>
+							<li><a href="desa/kategori/73">Maju</a></li>
+							<li><a href="desa/kategori/74">Mandiri</a></li>
+							<li><a href="desa">Pencarian Desa Wisata</a></li>
+						</ul>
+
+						<ul class="footer-links">
+							<li><a href="atraksi/jenis/59">Wisata Alam</a></li>
+							<li><a href="atraksi/jenis/60">Wisata Budaya</a></li>
+							<li><a href="atraksi/jenis/61">Wisata Buatan</a></li>
+							<li><a href="atraksi">Pencarian Atraksi</a></li>
+						</ul>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="col-md-3 col-sm-12">
+						<div class="text-widget margin-bottom-20">
+							<img src="/images/itsaverified.png" alt="" style="width:108px" />
+						</div>
+						<h4>Hubungi Kami</h4>
+						<div class="text-widget">
+							<i class="fa fa-whatsapp"></i> <span><a
+									href="https://wa.me/6281210002190">0812-1000-2190</a> </span><br>
+							<i class="fa fa-envelope-o"></i> <span> <a href="#">info@jadesta.com</a> </span><br>
+						</div>
+
+						<ul class="social-icons margin-top-20">
+							<li><a class="facebook" href="https://www.facebook.com/jadestaindonesia/"><i
+										class="icon-facebook"></i></a></li>
+							<li><a class="twitter" href="https://twitter.com/jadestaofficial"><i
+										class="icon-twitter"></i></a></li>
+							<li><a class="instagram" href="https://www.instagram.com/info.jadesta"><i
+										class="icon-instagram"></i></a></li>
+							<li><a class="youtube" href="https://www.youtube.com/channel/UCZZiOB4JImoIzWfof3oOB3g"><i
+										class="icon-youtube"></i></a></li>
+						</ul>
+
+						<div class="clearfix"></div>
+						<div class="text-widget">
+							<div id="histats_counter"></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyrights">
+							KEMENTERIAN PARIWISATA REPUBLIK INDONESIA<br />
+							&copy; 2026
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="backtotop"><a href="#"></a></div>
+	</div>
+
+	<a href="https://api.whatsapp.com/send?phone=6281210002190&text=Halo+Jadesta,+kami+dari+" class="float hidden"
+		target="_blank">
+		<i class="fa fa-whatsapp my-float"></i>
+	</a>
+
+	<nav class="sosmed" id="divsosmed">
+		<ul>
+			<li>
+				Close <span class="fileremover">X</span>
+				<a href="https://sertidewi.jadesta.kemenpar.go.id/"><img src="/images/sertifikasi.png"
+						width="240px" /></a>
+			</li>
+		</ul>
+	</nav>
+	<button id="surveyFloatingBtn" title="Isi Survey">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path
+				d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+		</svg>
+		<span class="survey-tooltip">Isi Survey</span>
+	</button>
+	<div id="statusModal" class="row modal_survey">
+		<div class="modal-content_survey">
+			<span class="close-btn_survey">&times;</span>
+			<h3 id="modalTitle">Berikan Penilaian Terbaik Anda...</h3>
+			<p id="modalMessage"></p>
+			<iframe id="resultIframe" style="width: 100%; height: inherit; border: none; display: none;"></iframe>
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-migrate-3.3.2.min.js"></script>
+	<script type="text/javascript" src="scripts/mmenu.min.js"></script>
+	<script type="text/javascript" src="scripts/chosen.min.js"></script>
+	<script type="text/javascript" src="scripts/slick.min.js"></script>
+	<script type="text/javascript" src="scripts/rangeslider.min.js"></script>
+	<script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
+	<script type="text/javascript" src="scripts/waypoints.min.js"></script>
+	<script type="text/javascript" src="scripts/counterup.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/tooltips.min.js"></script>
+	<script type="text/javascript" src="scripts/custom.js"></script>
+	<script>
+		$(function () {
+			"use strict";
+			$(".fileremover").on("click", function (e) {
+				e.preventDefault();
+				$("#divsosmed").css('display', 'none');
+			});
+		});
+	</script>
+
+	
+
+	<script>
+		// untuk survey ===================
+		function mulai_survey() {
+			const modal = document.getElementById('statusModal');
+			const modalContent = modal.querySelector('.modal-content_survey');
+			const modalTitle = document.getElementById('modalTitle');
+			const resultIframe = document.getElementById('resultIframe');
+			const respondentNameInput = document.getElementById('respondent_name');
+
+			resultIframe.style.display = 'none';
+			modalContent.className = 'modal-content_survey';
+			modal.style.display = "block";
+
+			modalTitle.textContent = "Berikan Penilaian Terbaik Anda...";
+
+			resultIframe.src = "https://surveidigital.spbe.go.id/embed/survey/eyJzdXJ2ZXlfaWQiOjIsInNlcnZpY2VfaWQiOjMyNCwiaG9zdCI6Imh0dHBzOi8vamFkZXN0YS5rZW1lbnBhci5nby5pZC8iLCJrZXkiOiJESHZxbzNGNCJ9/embed/view/?jenis_layanan=Layanan Informasi Desa Wisata";
+			resultIframe.style.display = 'block';
+			//respondentNameInput.value = '';
+
+			modalMessage.style.display = 'none';
+			modalContent.className = 'modal-content_survey success_survey iframe-active_survey';
+			modal.style.display = "block";
+		}
+
+		const modal = document.getElementById('statusModal');
+		const closeBtn = modal.querySelector('.close-btn_survey');
+
+		closeBtn.onclick = function () {
+			modal.style.display = "none";
+		}
+
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		// untuk survey ===================
+
+		// --- Logika Cookie Survey ---
+		function getCookie(name) {
+			const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+			return match ? decodeURIComponent(match[2]) : null;
+		}
+
+		function setCookie(name, value, days) {
+			const expires = new Date();
+			expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+			document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires.toUTCString() + '; path=/';
+		}
+
+		(function initSurveyCookie() {
+			const surveyVal = getCookie('survey');
+			const surveyIcon = document.getElementById('surveyFloatingBtn');
+
+			if (surveyVal === null) {
+				// Kunjungan pertama: set cookie "survey" = "1", icon belum ditampilkan
+				setCookie('survey', '1', 30);
+				if (surveyIcon) surveyIcon.style.display = 'none';
+			} else if (surveyVal === '1') {
+				// Kunjungan berikutnya dengan cookie "1": tampilkan icon
+				if (surveyIcon) surveyIcon.style.display = 'flex';
+			} else {
+				// Cookie sudah "2" atau lebih: sembunyikan icon
+				if (surveyIcon) surveyIcon.style.display = 'flex';
+			}
+		})();
+
+		document.getElementById('surveyFloatingBtn').addEventListener('click', function () {
+			mulai_survey();
+			setCookie('survey', '2', 30);
+			this.style.display = 'none';
+		});
+		// --- Akhir Logika Cookie Survey ---
+	</script>
+
+	<!-- Floating Survey Button -->
+	<style>
+		#surveyFloatingBtn {
+			display: none;
+			position: fixed;
+			bottom: 15px;
+			left: 102px;
+			z-index: 9999;
+			width: 64px;
+			height: 64px;
+			border-radius: 50%;
+			background: linear-gradient(135deg, #1d6fa4 0%, #2196f3 100%);
+			box-shadow: 0 4px 18px rgba(33, 150, 243, 0.45);
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			border: none;
+			outline: none;
+			transition: transform 0.2s, box-shadow 0.2s;
+			animation: surveyPulse 2.5s infinite;
+		}
+
+		#surveyFloatingBtn:hover {
+			transform: scale(1.12);
+			box-shadow: 0 6px 24px rgba(33, 150, 243, 0.6);
+		}
+
+		#surveyFloatingBtn svg {
+			width: 28px;
+			height: 28px;
+			fill: #fff;
+		}
+
+		#surveyFloatingBtn .survey-tooltip {
+			position: absolute;
+			left: 68px;
+			bottom: 10px;
+			background: rgba(30, 30, 40, 0.88);
+			color: #fff;
+			padding: 6px 13px;
+			border-radius: 6px;
+			font-size: 12.5px;
+			white-space: nowrap;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 0.2s;
+		}
+
+		#surveyFloatingBtn:hover .survey-tooltip {
+			opacity: 1;
+		}
+
+		@keyframes surveyPulse {
+			0% {
+				box-shadow: 0 4px 18px rgba(33, 150, 243, 0.45);
+			}
+
+			50% {
+				box-shadow: 0 4px 28px rgba(33, 150, 243, 0.75), 0 0 0 8px rgba(33, 150, 243, 0.12);
+			}
+
+			100% {
+				box-shadow: 0 4px 18px rgba(33, 150, 243, 0.45);
+			}
+		}
+	</style>
+	<!-- Akhir Floating Survey Button -->
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/sienna-accessibility@latest/dist/sienna-accessibility.umd.js"
+		defer></script>
+</body>
+
+</html>

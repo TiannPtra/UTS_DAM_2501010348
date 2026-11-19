@@ -1,0 +1,5 @@
+﻿sumber,url,tanggal_akses_utc,keputusan_robots,http_status,pola_ditemukan,kutipan_konteks,file_bukti,md5_bukti,status_verifikasi
+Open-Meteo,https://open-meteo.com/en/license,2026-11-19T13:23:36+00:00,ALLOW,200.0,False,,WEST_JAVA_TOURISM_INTELLIGENCE/data/raw/openmeteo/openmeteo_lisensi_1.html,24918127445438ddfa8ec3f8ad6ec73b,Perlu verifikasi manual - halaman terbaca tapi pernyataan lisensi tidak ditemukan
+Open-Meteo,https://open-meteo.com/en/terms,2026-11-19T13:23:38+00:00,ALLOW,200.0,False,,WEST_JAVA_TOURISM_INTELLIGENCE/data/raw/openmeteo/openmeteo_lisensi_2.html,b5bdd4e3578da004ac805c909685e5a1,Perlu verifikasi manual - halaman terbaca tapi pernyataan lisensi tidak ditemukan
+BPS Jawa Barat (halaman publikasi),https://jabar.bps.go.id/id/publication/2006/05/09/225528b03bf64b54704968de/kebudayaan-dan-pariwisata-jawa-barat-dalam-angka-2005.html,2026-11-19T13:23:44+00:00,UNCLEAR,,False,,,,Perlu verifikasi manual - halaman tidak dapat diambil (robots/status HTTP)
+JADESTA (halaman ketentuan),https://jadesta.kemenpar.go.id,2026-11-19T13:25:57+00:00,ALLOW_NO_ROBOTS,,False,,,,Perlu verifikasi manual - tautan ketentuan tidak ditemukan otomatis

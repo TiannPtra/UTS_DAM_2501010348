@@ -1,0 +1,8 @@
+﻿sumber,kolom,tipe,hit_email,hit_telepon_id,hit_nik_16_digit,klasifikasi,alasan,tindakan
+dataset_utama,tahun,int64,0,0,0,Bukan PII,Atribut waktu,Dipertahankan
+dataset_utama,kabupaten_kota,string,0,0,0,Quasi-identifier lemah (geografis),"Wilayah luas; objeknya tempat wisata, bukan individu",Dipertahankan
+dataset_utama,lokasi,string,0,0,0,Quasi-identifier lemah (geografis),"Desa/kecamatan lokasi objek publik, bukan alamat rumah individu",Dipertahankan
+dataset_utama,jenis_potensi,string,0,0,0,Bukan PII,Kategori objek,Dipertahankan
+dataset_utama,nama_objek_wisata,string,0,0,0,Bukan PII (nama tempat),Sebagian nama bisa memuat nama tokoh/situs sejarah; tetap informasi publik tentang tempat,Dipertahankan
+dataset_utama,halaman_sumber,int64,0,0,0,Bukan PII,Penanda sumber,Dipertahankan
+dataset_utama,tabel_sumber,int64,0,0,0,Bukan PII,Penanda sumber,Dipertahankan

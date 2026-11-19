@@ -1,0 +1,13 @@
+﻿komponen,nilai
+ukuran_file_byte,15110
+ukuran_file_KB,14.76
+bulan,12
+estimasi_12_bulan_byte,181320
+cadangan_30_persen_byte,54396.0
+total_estimasi_1_tahun_byte,235716.0
+total_estimasi_1_tahun_KB,230.19
+rumus,ukuran_file x 12 x 1.30
+asumsi_1,Satu salinan dataset (setara satu snapshot) disimpan tiap bulan selama 12 bulan
+asumsi_2,"Ukuran per snapshot tetap sama dengan berkas saat ini (dataset historis 2005, tidak bertambah)"
+asumsi_3,"Cadangan 30% untuk versi interim/processed, metadata, dan pertumbuhan data"
+asumsi_4,Belum termasuk raw API/HTML (dihitung terpisah di BAB 7)
