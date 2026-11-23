@@ -10,8 +10,8 @@ Kelas: E
 
 ### Integrasi Data Potensi Wisata, Historical Weather, dan Informasi Paket Wisata
 
-**UTS --- Data Acquisition & Management**\
-**Program Studi Informatika · INSTIKI**
+**UTS  Data Acquisition & Management**\
+**Program Studi Informatika  INSTIKI**
 
 `<br/>`{=html}
 
