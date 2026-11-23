@@ -80,7 +80,7 @@ dan hanya dihubungkan jika pemetaan wilayah dapat divalidasi.
 Semua sumber utama proyek dicantumkan di bawah agar asal data dapat
 diperiksa dan direproduksi.
 
-### 1. Dataset utama --- BPS Provinsi Jawa Barat
+### 1. Dataset utama BPS Provinsi Jawa Barat
 
   -----------------------------------------------------------------------
   Informasi                           Keterangan
