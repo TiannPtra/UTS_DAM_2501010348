@@ -23,7 +23,7 @@ Kelas: E
 ## 👤 Identitas Penyusun
 
   Identitas        Keterangan
-  ---------------- -------------------------------
+
   Nama             **\[ISI NAMA LENGKAP\]**
   NIM              **\[ISI NIM\]**
   Program Studi    Informatika
