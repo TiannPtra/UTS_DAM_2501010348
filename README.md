@@ -1,9 +1,6 @@
 Nama : Kristian Putra Santosa
-
 Nim : 2501010348
-
 Prodi : Informatika - MDA
-
 Kelas: E
 
 # 🧭 WEST JAVA TOURISM INTELLIGENCE 
