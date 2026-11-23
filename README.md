@@ -81,9 +81,7 @@ Semua sumber utama proyek dicantumkan di bawah agar asal data dapat
 diperiksa dan direproduksi.
 
 ### 1. Dataset utama BPS Provinsi Jawa Barat
-
-  -----------------------------------------------------------------------
-  Informasi                           Keterangan
+  
   ----------------------------------- -----------------------------------
   Nama publikasi                      *Kebudayaan dan Pariwisata Jawa
                                       Barat dalam Angka 2005*
