@@ -13,7 +13,6 @@ Kelas: E
 **UTS  Data Acquisition & Management**\
 **Program Studi Informatika  INSTIKI**
 
-`<br/>`{=html}
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas)
