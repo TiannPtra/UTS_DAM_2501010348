@@ -18,9 +18,6 @@ Kelas: E
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas)
 ![Status](https://img.shields.io/badge/Project-Academic%20Research-16A34A?style=for-the-badge)
 
-*Turning tourism data into meaningful regional insights.*
-:::
-
 ------------------------------------------------------------------------
 
 ## 👤 Identitas Penyusun
