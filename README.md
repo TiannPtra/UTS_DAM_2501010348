@@ -441,5 +441,4 @@ Luaran yang diharapkan dari eksekusi notebook:
 *Data • Discovery • Documentation*
 
 Dibuat untuk keperluan akademik --- UTS Data Acquisition & Management\
-Program Studi Informatika · INSTIKI
-:::
+Program Studi Informatika INSTIKI
